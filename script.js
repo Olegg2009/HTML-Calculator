@@ -19,7 +19,7 @@ function del() {
     document.getElementById('result').innerHTML = (+x / +y)
 }
 function cut() {
-    document.getElementById('result').innerHTML = 'Результат'
-    document.getElementById('num1').innerHTML = 0;
-    document.getElementById('num2').innerHTML = 0;
+    document.getElementById('result').value = "Результат";
+    document.getElementById('num1').value = 0;
+    document.getElementById('num2').value = 0;
 }
