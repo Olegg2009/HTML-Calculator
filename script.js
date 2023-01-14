@@ -18,3 +18,8 @@ function del() {
     let y = document.getElementById('num2').value;
     document.getElementById('result').innerHTML = (+x / +y)
 }
+function cut() {
+    document.getElementById('result').innerHTML = 'Результат'
+    document.getElementById('num1').innerHTML = 0;
+    document.getElementById('num2').innerHTML = 0;
+}
